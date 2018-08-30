@@ -4,10 +4,11 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-source-wordpress',
       options: {
-        baseUrl: 'localhost:8080',
+        baseUrl: 'thewholemind.me',
         protocol: 'http',
         hostingWPCOM: false,
         useACF: true,
